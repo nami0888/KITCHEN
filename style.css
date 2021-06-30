@@ -2,17 +2,30 @@
     max-width: 1400px;
     margin: 0 auto;
   }
+  body{
+    max-width: 1000px;
+  }
   header {
-    
     background: rgb(0, 64, 97);
     height: 70px;
-
     display: flex;
-
   }
+  header p img{
+    position:absolute;
+    left:200px;
+    top: 30px;
+  }
+
   header nav ul{
     display: flex;
   }
+
+  .list {
+    position:absolute;
+    left:500px;
+    top: 30px;
+  }
+
 
   .container {
     display: flex;
@@ -20,6 +33,23 @@
     height:650px ;
     background-image: url(images/index_bg01.png);
   }
+  ＃menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  h1{
+    position: absolute; /* 今の位置を基準 */
+    top: 200px; /* 上から10px */
+    left: 200px;
+  }
+  .img-text{
+    position: absolute; /* 今の位置を基準 */
+    top: 300px; /* 上から10px */
+    left: 200px;
+    }
+  
+
   .main {
   
     margin: 0 auto;
