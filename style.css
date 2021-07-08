@@ -68,22 +68,19 @@ body{
     left: 200px;
     }
 section{
-  margin 0 auto;
-  width: 1000px;
-
+margin: auto;
+  width: 1400px;
   }
 /*メニュー*/
 .contents{
-  clear: both;
   width: 1000px;
+  margin: auto;
+}
+.contents
+.main-text {
+  display: inline-block;
 
 }
-.main-img,
-.main-text{
-  float: left;;
-}
-
-
 
 
 
