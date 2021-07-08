@@ -13,15 +13,32 @@ body{
     top: 30px;
   }
 
-  header nav ul{
-    display: flex;
-  }
-
   .list {
     position:absolute;
     left:500px;
     top: 30px;
   }
+
+  header nav ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  header li{
+    flex-grow: 1
+    
+    padding: 5px;
+    margin-right:30px;
+    margin-left:30px;
+    color: white;
+    text-align: center;
+  }
+
+
+  header li + li {
+    border-left: 1px solid white;
+    
+  }  
+  
   header .btn{
     position:absolute;
     left:1000px;
@@ -36,50 +53,37 @@ body{
     background-image: url(images/index_bg01.png);
   }
 
-  h2 {
-    text-align:center;
-  }
   h1{
     position: absolute;
     top: 200px;
     left: 200px;
   }
+  h2 {
+    text-align:center;
+  }
+
   .img-text{
     position: absolute;
     top: 300px;
     left: 200px;
     }
+section{
+  margin 0 auto;
+  width: 1000px;
+
+  }
 /*メニュー*/
+.contents{
+  clear: both;
+  width: 1000px;
+
+}
+.main-img,
+.main-text{
+  float: left;;
+}
 
 
 
 
 
-
-
-
-
-  .main {
-  
-    margin: 0 auto;
-  }
-  .main img{
-      float: left;
-    }
- 
-  .img-text{
-      color:white;
-  }
-  .conts{
-      width: 700px;
-      font-size: 10px;
-  }
-  .conts p{
-
-  }
-  .photo{
-    float-left: 150px;
-  }
-  footer {
-    
-  }
