@@ -23,34 +23,37 @@ body{
     display: flex;
     justify-content: space-between;
   }
-  header li{
-    flex-grow: 1
-    
+
+  header li {
     padding: 5px;
-    margin-right:30px;
-    margin-left:30px;
-    color: white;
-    text-align: center;
   }
 
 
-  header li + li {
+  header li + li{
+    flex-grow: 1
+    color: white;
+    text-align: center;
     border-left: 1px solid white;
-    
-  }  
-  
+    padding: 5px;
+  }
+
   header .btn{
     position:absolute;
     left:1000px;
-    top: 30px;
+    top:15px;
+    text-align: center;
+    padding-top: 15px;
+    background-color:rgb(225, 183, 13);
+    width: 200px;
+    height: 30px;
   }
-
 
   .container {
     display: flex;
     width: 1400px;
     height:650px ;
     background-image: url(images/index_bg01.png);
+
   }
 
   h1{
@@ -60,6 +63,7 @@ body{
   }
   h2 {
     text-align:center;
+    clear: both;
   }
 
   .img-text{
@@ -68,19 +72,45 @@ body{
     left: 200px;
     }
 section{
-margin: auto;
-  width: 1400px;
+
+  width: 1000px;
+
   }
+
 /*メニュー*/
 .contents{
   width: 1000px;
-  margin: auto;
-}
-.contents
-.main-text {
-  display: inline-block;
-
+  clear: both;
+  margin: 30px;
 }
 
 
+.menu-btn{
+  display: block;
+  clear: both;
+}
+.main-img,
+.main-text{
+  float: left;
+}
+
+
+
+
+.menu-btn{
+  width: 360px;
+  height: 20px;
+  background-color:rgb(0, 64, 97);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+/*アクセス*/
+.access-img{
+  float: left;
+}
+dl{
+  float: right;
+}
 
