@@ -1,225 +1,238 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>AOI KITCHEN</title>
-        <meta name="description" content="ページの紹介文">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="reset.css" rel="stylesheet" type="text/css">
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
 
-  <body> 
+<head>
+    <meta charset="UTF-8">
+    <title>AOI KITCHEN</title>
+    <meta name="description" content="ページの紹介文">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
     <header>
-        <p><img src="images/header-aoikichen.png" alt="AOI KICHEN"></p>
-        <nav class="list">
-          <ul>
-            <li><a href="#menu">メニュー</a></li>
-            <li><a href="#access">アクセス</a></li>
-            <li><a href="#coupon">クーポン</a></li>
-          </ul>
-        </nav>
-        <div class="btn"><a href="#reserve">ご予約はこちら</a></div>
+        <div class="header-group">
+            <p><img src="images/header-aoikichen.png" alt="AOI KICHEN"></p>
+            <nav class="list">
+                <ul>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                    <li><a href="#coupon">クーポン</a></li>
+                </ul>
+            </nav>
+            <div class="btn"><a href="#reserve">ご予約はこちら</a></div>
+        </div>
     </header>
-    <section>
-        <div class="container">
-         <h1><img src="images/aoikichen.png" alt="AOI KITCHEN"></h1>
-         <div class="img-text">
-             <img src="images/mv_text.png" alt="西梅田駅徒歩3分！本格パスタを20種類以上ご用意してお待ちしております。">
-         </div>
+    <section class="container">
+        <div class="top">
+            <h1><img src="images/aoikichen.png" alt="AOI KITCHEN"></h1>
+            <div class="img-text">
+                <img src="images/mv_text.png" alt="西梅田駅徒歩3分！本格パスタを20種類以上ご用意してお待ちしております。">
+            </div>
         </div>
     </section>
-    <section>
-            <h2 id="menu"><img src="images/menu.png" alt="メニュー"></h2>
-            <p>定番メニューや今月のおすすめをご紹介！</p>
-            <div class="contents">
-                <p><img src="images/main_img01.png" alt="ジェノーベーゼパスタ" class="main-img"></p>
-               <div class="main-text">
-                 <p>今月のおすすめ！3月までの限定メニュー</p>
-                 <p>北海道産サーモンと野菜のジェノベーゼパスタ</p>
-                 <p>1180円</p>
-               </div>
+    <section class="menu">
+        <h2 id="menu"><img src="images/menu.png" alt="メニュー"></h2>
+        <p class="lead">定番メニューや今月のおすすめをご紹介！</p>
+        <div class="contents">
+            <p><img src="images/main_img01.png" alt="ジェノーベーゼパスタ" class="main-top"></p>
+            <div class="main-text">
+                <p class="menu-lead">今月のおすすめ！3月までの限定メニュー</p><br />
+                <p class="food">北海道産サーモンと野菜のジェノベーゼパスタ</p>
+                <p class="price">1180円</p>
             </div>
-            <div class="contents">
-                <p><img src="images/main_img02.png" alt="カルボナーラ"class="main-img"></p>
-                <div class="main-text">
-                <p>AOI KITCHENといえばこれ！一度は食べてほしい定番メニュー</p>
-                <p>特製カルボナーラ</p>
-                <p>880円</p>
-             </div>
+
+        </div>
+        <div class="contents">
+            <p><img src="images/main_img02.png" alt="カルボナーラ" class="main-img"></p>
+            <div class="main-text">
+                <p class="menu-lead">AOI KITCHENといえばこれ！一度は食べてほしい定番メニュー</p>
+                <p class="food">特製カルボナーラ</p>
+                <p class="price">880円</p>
             </div>
-            <div class="contents">
-                <p><img src="images/main_img03.png" alt="スフレオムレツ" class="main-img"></p>
-                <div class="main-text">
-                <p>アラカルト人気No.1！パスタといっしょにどうぞ</p>
-                <p>ふわふわスフレオムレツ</p>
-                <p>500円</p>
-                </div>
-            </div> 
-            <a href="#" class="menu-btn">すべてのメニューを見る</a>
+        </div>
+        <div class="contents">
+            <p><img src="images/main_img03.png" alt="スフレオムレツ" class="main-img"></p>
+            <div class="main-text">
+                <p class="menu-lead">アラカルト人気No.1！パスタといっしょにどうぞ</p>
+                <p class="food">ふわふわスフレオムレツ</p>
+                <p class="price">500円</p>
+            </div>
+        </div>
+        <div class="menu-btn"><a href="#">すべてのメニューを見る</a></div>
+
+    </section>
+    <section class="access">
+        <div class="access-group">
+            <h2 id="access"><img src="images/access.png" alt="アクセス"></h2>
+            <div class="access-main">
+                <p><img src="images/map.png" alt="マップ" class="access-img"></p>
+                <a href="#">Googleマップでみる</a>
+                <dl>
+                    <dt>住所</dt>
+                    <dd>大阪府大阪市北区〇〇〇〇〇〇〇〇〇〇</dd>
+                    <dd>地下鉄四ツ橋線「西梅田」駅 徒歩3分</dd>
+                    <dt>電話番号</dt>
+                    <dd>06-0000-0000</dd>
+                    <dt>営業時間</dt>
+                    <dd>【ランチ】12:00〜15:00（LO 14:30）</dd>
+                    <dd>【ディナー】18:00〜23:00（LO 22:30）</dd>
+                    <dt>席数</dt>
+                    <dd>【カウンター】12席</dd>
+                    <dd>【テーブル】36席（最大10人席までございます)</dd>
+                </dl>
+            </div>
         </div>
     </section>
-    <section>
-          <h2 id="access"><img src="images/access.png" alt="アクセス" ></h2>
-          <p><img src="images/map.png" alt="マップ" class="access-img"></p>
-          <a href="#">Googleマップでみる</a>
-          <div class="access">
-            <dl>
-              <dt>住所</dt>
-               <dd>大阪府大阪市北区〇〇〇〇〇〇〇〇〇〇</dd>
-               <dd>地下鉄四ツ橋線「西梅田」駅 徒歩3分</dd>
-              <dt>電話番号</dt>
-               <dd>06-0000-0000</dd>
-              <dt>営業時間</dt>
-               <dd>【ランチ】12:00〜15:00（LO 14:30）</dd>
-               <dd>【ディナー】18:00〜23:00（LO 22:30）</dd>
-              <dt>席数</dt>
-               <dd>【カウンター】12席</dd>
-               <dd>【テーブル】36席（最大10人席までございます)</dd>
-            </dl>
-          </div>
-      </section>
-      <section>
+    <section class="coupon">
         <h2 id="coupon"><img src="images/coupon.png" alt="クーポン"></h2>
-        <p>公式サイト限定のお得なクーポン！ご来店時スタッフにお見せください。</p>
+        <p class="lead">公式サイト限定のお得なクーポン！ご来店時スタッフにお見せください。</p>
         <ul>
             <li>
-              <p><a href="#"><img src="images/followcoupon.png" alt="フォロー割"></p>
-              <p>ツイッター・インスタフォロー割！100円OFFクーポン</p>
-            </li>  
-            <li>
-               <p><a href="#"><img src="images/happyhour.png" alt="ハッピーアワー割"></p>
-               <p>ハッピーアワークーポン！1ドリンク無料</p>
+                <p><a href="#"><img src="images/followcoupon.png" alt="フォロー割"></a></p>
+                <p>ツイッター・インスタフォロー割！100円OFFクーポン</p>
             </li>
             <li>
-               <p><a href="#"><img src="images/sweetscoupon.png" alt="ランチ割"></p>
-               <p>ランチタイム限定！スイーツプレゼント</p>
+                <p><a href="#"><img src="images/happyhour.png" alt="ハッピーアワー割"></a></p>
+                <p>ハッピーアワークーポン！1ドリンク無料</p>
+            </li>
+            <li>
+                <p><a href="#"><img src="images/sweetscoupon.png" alt="ランチ割"></a></p>
+                <p>ランチタイム限定！スイーツプレゼント</p>
             </li>
         </ul>
-        <div>
+        <div class="attention">
             <p>※一度にご使用いただけるクーポンは1枚のみとなります。</p>
             <p>※必ずお会計までにスタッフにお見せください。お会計後のご使用はできかねます。</p>
         </div>
-      </section>
-      <section> 
-         <h2 id="reserve"><img src="images/reserve.png" alt="予約"></h2>
-         <p>ご予約はフォームまたはお電話（06-0000-0000）で受け付けております。<br>必要事項をご確認の上ご予約お願いいたします。</p>
-       <form action="" method="">
-        <table>
-            <tbody>
-            <tr>
-               <th>お名前<span class="required">必須</span></th><td><input type="text" name="name" id="name"></td>
-            </tr>
-            <tr>
-                <th>メールアドレス<span class="required">必須</span></th><td><input type="email" name="email" id="email"></td>
-            </tr>
-            <tr> 
-                <th>電話番号<span class="required">必須</span></th><td><input type="tel" name="tel" id="tel"></td>
-            </tr>
-        <tr>
-            <th>ご来店日時<span class="required">必須</span></th>
-            <td>
-               <select name="month">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                    <option value="">11</option>
-                    <option value="">12</option>
-               </select>
-               <p>月</p> 
-               <select name="day">
-                   <option value="">1</option>
-                   <option value="">2</option>
-                   <option value="">3</option>
-                   <option value="">4</option>
-                   <option value="">5</option>
-                   <option value="">6</option>
-                   <option value="">7</option>
-                   <option value="">8</option>
-                   <option value="">9</option>
-                   <option value="">10</option>
-                   <option value="">11</option>
-                   <option value="">12</option>
-                   <option value="">13</option>
-                   <option value="">14</option>
-                   <option value="">15</option>
-                   <option value="">16</option>
-                   <option value="">17</option>
-                   <option value="">18</option>
-                   <option value="">19</option>
-                   <option value="">20</option>
-                   <option value="">21</option>
-                   <option value="">22</option>
-                   <option value="">23</option>
-                   <option value="">24</option>
-                   <option value="">25</option>
-                   <option value="">26</option>
-                   <option value="">27</option>
-                   <option value="">28</option>
-                   <option value="">29</option>
-                   <option value="">30</option>
-                   <option value="">31</option>
-               </select>
-               <p>日</p> 
-               <select name="time">
-                   <option value="">18:00</option>
-                   <option value="">19:00</option>
-                   <option value="">20:00</option>
-                   <option value="">21:00</option>
-                   <option value="">22:00</option>
-               </select>
-            </td>
-        </tr>
-        <tr>
-            <th>ご来店人数<span class="required">必須</span></th>
-            <td>
-                <select name="people">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option> 
-                </select>
-                <p>人</p>
-            </td>
-        </tr>
-           <tr>
-               <th>ご要望など</th>
-               <td><textarea id="comment" name="comment"></textarea></td>
-           </tr>
-        </tbody>
-      </table>
-         </form>
-      </section>
+    </section>
+    <section class="reserve">
+        <h2 id="reserve"><img src="images/reserve.png" alt="予約"></h2>
+        <p class="lead">ご予約はフォームまたはお電話（06-0000-0000）で受け付けております。<br>必要事項をご確認の上ご予約お願いいたします。</p>
+        <form action="" method="">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>お名前<span class="required">必須</span></th>
+                        <td><input type="text" name="name" id="name"></td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス<span class="required">必須</span></th>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号<span class="required">必須</span></th>
+                        <td><input type="tel" name="tel" id="tel"></td>
+                    </tr>
+                    <tr>
+                        <th>ご来店日時<span class="required">必須</span></th>
+                        <td>
+                            <select name="month">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                            </select>
+                            <p>月</p>
+                            <select name="day">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+                            <p>日</p>
+                            <select name="time">
+                                <option value="">18:00</option>
+                                <option value="">19:00</option>
+                                <option value="">20:00</option>
+                                <option value="">21:00</option>
+                                <option value="">22:00</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ご来店人数<span class="required">必須</span></th>
+                        <td>
+                            <select name="people">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                            <p>人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ご要望など</th>
+                        <td><textarea id="comment" name="comment"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
 
     <section>
         <div class="btn">
             <button type="submit" name="action" value="send">上記内容で予約する</button>
         </div>
-      </section>
+    </section>
     </div>
 
     <footer>
         <div class="sns">
-        <figure><img src="images/followme.png" alt="followme"></figure>
-        <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png"alt="Twitter"></a>
-        <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png"alt="Instagram"></a>
+            <figure><img src="images/followme.png" alt="followme"></figure>
+            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram"></a>
         </div>
-        <div><a href="#"><img src="images/pagetop.png" alt="TOP"></a></div>
+        <div>
+            <a href="#"><img src="images/pagetop.png" alt="TOP"></a>
+        </div>
         <p><small>&copy;aoiyuwaku.com 2019</small></p>
     </footer>
 </body>
+
 </html>
