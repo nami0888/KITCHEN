@@ -69,21 +69,25 @@
         <div class="access-group">
             <h2 id="access"><img src="images/access.png" alt="アクセス"></h2>
             <div class="access-main">
-                <p><img src="images/map.png" alt="マップ" class="access-img"></p>
-                <a href="#">Googleマップでみる</a>
-                <dl>
-                    <dt>住所</dt>
-                    <dd>大阪府大阪市北区〇〇〇〇〇〇〇〇〇〇</dd>
-                    <dd>地下鉄四ツ橋線「西梅田」駅 徒歩3分</dd>
-                    <dt>電話番号</dt>
-                    <dd>06-0000-0000</dd>
-                    <dt>営業時間</dt>
-                    <dd>【ランチ】12:00〜15:00（LO 14:30）</dd>
-                    <dd>【ディナー】18:00〜23:00（LO 22:30）</dd>
-                    <dt>席数</dt>
-                    <dd>【カウンター】12席</dd>
-                    <dd>【テーブル】36席（最大10人席までございます)</dd>
-                </dl>
+                <div class="access-map">
+                    <p><img src="images/map.png" alt="マップ" class="access-img"></p>
+                    <a href="#">Googleマップでみる</a>
+                </div>
+                <div class="access-list">
+                    <dl>
+                        <dt>住所</dt>
+                        <dd>大阪府大阪市北区〇〇〇〇〇〇〇〇〇〇</dd>
+                        <dd>地下鉄四ツ橋線「西梅田」駅 徒歩3分</dd>
+                        <dt>電話番号</dt>
+                        <dd>06-0000-0000</dd>
+                        <dt>営業時間</dt>
+                        <dd>【ランチ】12:00〜15:00（LO 14:30）</dd>
+                        <dd>【ディナー】18:00〜23:00（LO 22:30）</dd>
+                        <dt>席数</dt>
+                        <dd>【カウンター】12席</dd>
+                        <dd>【テーブル】36席（最大10人席までございます)</dd>
+                    </dl>
+                </div>
             </div>
         </div>
     </section>
@@ -109,89 +113,92 @@
             <p>※必ずお会計までにスタッフにお見せください。お会計後のご使用はできかねます。</p>
         </div>
     </section>
+    <div class="aa">
     <section class="reserve">
+        
         <h2 id="reserve"><img src="images/reserve.png" alt="予約"></h2>
         <p class="lead">ご予約はフォームまたはお電話（06-0000-0000）で受け付けております。<br>必要事項をご確認の上ご予約お願いいたします。</p>
         <form action="" method="">
             <table>
                 <tbody>
                     <tr>
-                        <th>お名前<span class="required">必須</span></th>
-                        <td><input type="text" name="name" id="name"></td>
+                        <th><span class="title">お名前</span><span class="required">必須</span></th>
+                        <td><input type="text" name="name" id="name" class="frame"></td>
                     </tr>
                     <tr>
-                        <th>メールアドレス<span class="required">必須</span></th>
-                        <td><input type="email" name="email" id="email"></td>
+                        <th><span class="title">メールアドレス</span><span class="required">必須</span></th>
+                        <td><input type="email" name="email" id="email" class="frame"></td>
                     </tr>
                     <tr>
-                        <th>電話番号<span class="required">必須</span></th>
-                        <td><input type="tel" name="tel" id="tel"></td>
+                        <th><span class="title">電話番号</span><span class="required">必須</span></th>
+                        <td><input type="tel" name="tel" id="tel" class="frame"></td>
                     </tr>
                     <tr>
-                        <th>ご来店日時<span class="required">必須</span></th>
+                        <th><span class="title">ご来店日時</span><span class="required">必須</span></th>
                         <td>
-                            <select name="month">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                                <option value="">7</option>
-                                <option value="">8</option>
-                                <option value="">9</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                            </select>
-                            <p>月</p>
-                            <select name="day">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                                <option value="">7</option>
-                                <option value="">8</option>
-                                <option value="">9</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                                <option value="">13</option>
-                                <option value="">14</option>
-                                <option value="">15</option>
-                                <option value="">16</option>
-                                <option value="">17</option>
-                                <option value="">18</option>
-                                <option value="">19</option>
-                                <option value="">20</option>
-                                <option value="">21</option>
-                                <option value="">22</option>
-                                <option value="">23</option>
-                                <option value="">24</option>
-                                <option value="">25</option>
-                                <option value="">26</option>
-                                <option value="">27</option>
-                                <option value="">28</option>
-                                <option value="">29</option>
-                                <option value="">30</option>
-                                <option value="">31</option>
-                            </select>
-                            <p>日</p>
-                            <select name="time">
-                                <option value="">18:00</option>
-                                <option value="">19:00</option>
-                                <option value="">20:00</option>
-                                <option value="">21:00</option>
-                                <option value="">22:00</option>
-                            </select>
+                            <span class="date">
+                                <select name="month">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                    <option value="">10</option>
+                                    <option value="">11</option>
+                                    <option value="">12</option>
+                                </select>
+                                <p>月</p>
+                                <select name="day">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                    <option value="">10</option>
+                                    <option value="">11</option>
+                                    <option value="">12</option>
+                                    <option value="">13</option>
+                                    <option value="">14</option>
+                                    <option value="">15</option>
+                                    <option value="">16</option>
+                                    <option value="">17</option>
+                                    <option value="">18</option>
+                                    <option value="">19</option>
+                                    <option value="">20</option>
+                                    <option value="">21</option>
+                                    <option value="">22</option>
+                                    <option value="">23</option>
+                                    <option value="">24</option>
+                                    <option value="">25</option>
+                                    <option value="">26</option>
+                                    <option value="">27</option>
+                                    <option value="">28</option>
+                                    <option value="">29</option>
+                                    <option value="">30</option>
+                                    <option value="">31</option>
+                                </select>
+                                <p>日</p>
+                                <select name="time">
+                                    <option value="">18:00</option>
+                                    <option value="">19:00</option>
+                                    <option value="">20:00</option>
+                                    <option value="">21:00</option>
+                                    <option value="">22:00</option>
+                                </select>
                         </td>
                     </tr>
                     <tr>
-                        <th>ご来店人数<span class="required">必須</span></th>
+                        <th><span class="title">ご来店人数</span><span class="required">必須</span></th>
                         <td>
-                            <select name="people">
+                            <select name="people" class="">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -207,8 +214,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>ご要望など</th>
-                        <td><textarea id="comment" name="comment"></textarea></td>
+                        <th><span class="title">ご要望など</span></th>
+                        <td><textarea id="comment" name="comment" class="request_frame"></textarea></td>
                     </tr>
                 </tbody>
             </table>
@@ -220,8 +227,7 @@
             <button type="submit" name="action" value="send">上記内容で予約する</button>
         </div>
     </section>
-    </div>
-
+    
     <footer>
         <div class="sns">
             <figure><img src="images/followme.png" alt="followme"></figure>
@@ -231,8 +237,10 @@
         <div>
             <a href="#"><img src="images/pagetop.png" alt="TOP"></a>
         </div>
+    
         <p><small>&copy;aoiyuwaku.com 2019</small></p>
     </footer>
+</div>
 </body>
 
 </html>

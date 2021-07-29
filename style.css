@@ -1,223 +1,299 @@
-  body {
-      width: 1400px;
-      margin: 0 auto;
+body {
+    width: 1400px;
+    margin: 0 auto;
   }
-
+  
   header {
-      background: rgb(0, 64, 97);
-      height: 70px;
+    background: rgb(0, 64, 97);
+    height: 70px;
   }
-
+  
   header .header-group {
-      width: 1000px;
-      display: flex;
-      justify-content: space-between;
-      margin: auto;
-      align-items: center;
-      padding-top: 10px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
   }
-
+  
   header .header-group .list ul {
-      display: flex;
+    display: flex;
   }
-
+  
   header .header-group .list li {
-      padding: 0 45px;
+    padding: 0 45px;
   }
-
+  
   header .header-group .list li+li {
-      border-left: 1px solid rgb(167, 174, 179);
-      ;
+    border-left: 1px solid rgb(167, 174, 179);
+    ;
   }
-
+  
   header .header-group li a {
-      text-decoration: none;
-      color: white;
+    text-decoration: none;
+    color: white;
   }
-
+  
   header .header-group .btn a {
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      padding-top: 15px;
-      background-color: rgb(225, 183, 13);
-      width: 200px;
-      height: 30px;
-      display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(225, 183, 13);
+    width: 200px;
+    height: 30px;
+    display: block;
   }
-
+  
   header .header-group .btn a:hover {
-      opacity: 0.7;
+    opacity: 0.7;
   }
-
+  
   header.header-group .btn a {
-      text-decoration: none;
+    text-decoration: none;
   }
-
+  
   section {
-      padding: 54px;
+    padding: 54px;
   }
-
+  
   .container {
-      position: relative;
-      width: 1400px;
-      height: 650px;
-      background-image: url(images/index_bg01.png);
-      margin: 0px;
-      padding: 0px
+    position: relative;
+    width: 1400px;
+    height: 650px;
+    background-image: url(images/index_bg01.png);
+    margin: 0px;
+    padding: 0px
   }
-
+  
   .container h1 {
-      position: absolute;
-      top: 200px;
-      left: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
   }
-
+  
   .container .img-text {
-      position: absolute;
-      top: 300px;
-      left: 200px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
   }
-
+  
   /*メニュー*/
-
+  
   .menu h2 {
-      text-align: center;
-      clear: both;
+    text-align: center;
+    clear: both;
   }
-
+  
   .menu .lead {
-      text-align: center;
-      margin: 70px;
+    text-align: center;
+    margin: 70px;
   }
-
+  
   .menu .contents {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
   }
-
+  
   .menu .main-text {
-      margin-left: 65px;
-      width: 438px;
+    margin-left: 65px;
+    width: 438px;
   }
-
+  
   .menu .food {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom:20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
-  .menu .price{
-      font-weight: bold;
-      font-size: 16px;
+  
+  .menu .price {
+    font-weight: bold;
+    font-size: 16px;
   }
-
+  
   .menu .main-img {
-      display: flex;
-      justify-content: center;
-      box-shadow: 10px 10px rgb(0, 64, 97)
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px rgb(0, 64, 97)
   }
-
+  
   .menu .main-top {
-      box-shadow: 10px 10px rgb(225, 183, 13);
+    box-shadow: 10px 10px rgb(225, 183, 13);
   }
-
+  
   .menu .menu-lead {
-      color: rgb(0, 64, 97);
-      letter-spacing: -0.1em;
-      font-weight: bold;
-      margin-bottom: 45px;
+    color: rgb(0, 64, 97);
+    letter-spacing: -0.1em;
+    font-weight: bold;
+    margin-bottom: 45px;
   }
-
+  
   .menu .menu-btn {
-      display: block;
-      clear: both;
-      margin-top: 85px;
-      margin-bottom: 75px;
+    display: block;
+    clear: both;
+    margin-top: 85px;
+    margin-bottom: 75px;
   }
-
+  
   .menu .menu-btn a {
-      width: 360px;
-      height: 20px;
-      background-color: rgb(0, 64, 97);
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin: 0 auto;
-      text-decoration: none;
-      display: block;
+    width: 360px;
+    height: 20px;
+    background-color: rgb(0, 64, 97);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
   }
-
+  
   .menu .menu-btn a:hover {
-      opacity: 0.7;
+    opacity: 0.7;
   }
-
+  
   /*アクセス*/
-
+  
   .access {
-      height: 674px;
-      background-color: rgb(216, 227, 234);
+    height: 674px;
+    background-color: rgb(216, 227, 234);
   }
-
+  
   .access .access-group h2 {
-      text-align: center;
+    text-align: center;
   }
-
-  .access .access-group .access-main {}
-
-  .access .access-group .access-main .access-img {
-      display: block;
-  }
-
-  .access .access-group dl {
-      color: black;
-      margin-left: 60px;
-  }
-
-  .access .access-group dt {
-      font-weight: bold;
-  }
-
+  
   .access .access-group .access-main {
-      margin: 70px;
+    display: flex;
   }
+  
+  .access .access-group .access-main .access-img {
+    display: block;
+  }
+  
+  .access .access-group dl {
+    color: black;
+    margin-left: 60px;
+  }
+  
+  .access .access-group dt {
+    font-weight: bold;
+  }
+  
+  .access .access-group .access-map a{
+    float: right;
+  }
+  .access .access-group .{
 
+  }
+  
   /*クーポン*/
-
+  
   .coupon h2 {
-      text-align: center;
-      padding-bottom: 65px;
+    text-align: center;
+    padding-bottom: 65px;
   }
-
+  
   .coupon .lead {
-      text-align: center;
-      margin-bottom: 70px;
+    text-align: center;
+    margin-bottom: 70px;
   }
-
+  
   .coupon ul {
-      width: 1000px;
-      margin: 0 auto;
-      list-style: none;
-  }
-
-  .coupon ul li {
-      float: left;
-      margin-right: 20px;
-      margin-bottom: 20px;
-  }
-
-
-  .coupon p {
-      clear: both;
-   
-  }
-
-  .coupon ul li p {
-      text-align: center;
-  }
-  .coupon .attention{
     width: 1000px;
     margin: 0 auto;
-}
+    list-style: none;
+  }
+  
+  .coupon ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .coupon p {
+    clear: both;
+  }
+  
+  .coupon ul li p {
+    text-align: center;
+  }
+  
+  .coupon .attention {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /*予約*/
+  .reserve{
+      color: white;
+  }
+  .reserve h2 {
+    text-align: center;
+  }
+  
+  .reserve .lead {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  .reserve form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reserve {
+    background-color: rgb(0, 64, 97);
+  }
+  
+  .reserve th {
+    display: flex;
+  }
+  .reserve td .date{
+    display: flex;
+  
+  }
+  
+  
+  
+  .reserve .people {
+    margin-left: 50px;
+  }
+  
+  .reserve .title {
+    display: flex;
+    width: 120px;
+  }
+  .request .people{
+    float: left;
+  }
+  
+  .reserve .required {
+    width: 45px;
+    height: 25px;
+    background-color: rgb(225, 183, 13);
+    margin-left: 20px;
+    display: flex;
+    width: 50px;
+    flex-flow: column;
+  }
+  .reserve .frame{
+  width: 450px;
+  }
 
+  .request_frame{
+    width: 450px;
+    height: 95px;
+  }
+  
+   .people{
+    float: left;
+  }
+
+  /*フッター*/
+.aa{
+    background-color: rgb(0, 64, 97); 
+    height: 1103px;
+  }
