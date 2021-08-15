@@ -40,7 +40,7 @@
         <div class="contents">
             <p><img src="images/main_img01.png" alt="ジェノーベーゼパスタ" class="main-top"></p>
             <div class="main-text">
-                <p class="menu-lead">今月のおすすめ！3月までの限定メニュー</p><br />
+                <p class="menu-top_lead">今月のおすすめ！3月までの限定メニュー</p>
                 <p class="food">北海道産サーモンと野菜のジェノベーゼパスタ</p>
                 <p class="price">1180円</p>
             </div>
@@ -62,6 +62,7 @@
                 <p class="price">500円</p>
             </div>
         </div>
+
         <div class="menu-btn"><a href="#">すべてのメニューを見る</a></div>
 
     </section>
@@ -96,26 +97,25 @@
         <p class="lead">公式サイト限定のお得なクーポン！ご来店時スタッフにお見せください。</p>
         <ul>
             <li>
-                <p><a href="#"><img src="images/followcoupon.png" alt="フォロー割"></a></p>
-                <p>ツイッター・インスタフォロー割！100円OFFクーポン</p>
+                <p><a href="#"><img src="images/followcoupon.png" alt="フォロー割" class="coupon_img"></a></p>
+                <p class="coupon-text">ツイッター・インスタフォロー割！100円OFFクーポン</p>
             </li>
             <li>
-                <p><a href="#"><img src="images/happyhour.png" alt="ハッピーアワー割"></a></p>
-                <p>ハッピーアワークーポン！1ドリンク無料</p>
+                <p><a href="#"><img src="images/sweetscoupon.png" alt="ランチ割" class="coupon_img"></a></p>
+                <p class="coupon-text">ランチタイム限定！スイーツプレゼント</p>
             </li>
             <li>
-                <p><a href="#"><img src="images/sweetscoupon.png" alt="ランチ割"></a></p>
-                <p>ランチタイム限定！スイーツプレゼント</p>
+                <p><a href="#"><img src="images/happyhour.png" alt="ハッピーアワー割" class="coupon_img"></a></p>
+                <p class="coupon-text">ハッピーアワークーポン！1ドリンク無料</p>
             </li>
+
         </ul>
         <div class="attention">
             <p>※一度にご使用いただけるクーポンは1枚のみとなります。</p>
             <p>※必ずお会計までにスタッフにお見せください。お会計後のご使用はできかねます。</p>
         </div>
     </section>
-    <div class="aa">
     <section class="reserve">
-        
         <h2 id="reserve"><img src="images/reserve.png" alt="予約"></h2>
         <p class="lead">ご予約はフォームまたはお電話（06-0000-0000）で受け付けております。<br>必要事項をご確認の上ご予約お願いいたします。</p>
         <form action="" method="">
@@ -136,8 +136,7 @@
                     <tr>
                         <th><span class="title">ご来店日時</span><span class="required">必須</span></th>
                         <td>
-                            <span class="date">
-                                <select name="month">
+                                <select name="month" class="time">
                                     <option value="">1</option>
                                     <option value="">2</option>
                                     <option value="">3</option>
@@ -152,7 +151,7 @@
                                     <option value="">12</option>
                                 </select>
                                 <p>月</p>
-                                <select name="day">
+                                <select name="day" class="time">
                                     <option value="">1</option>
                                     <option value="">2</option>
                                     <option value="">3</option>
@@ -186,7 +185,7 @@
                                     <option value="">31</option>
                                 </select>
                                 <p>日</p>
-                                <select name="time">
+                                <select name="time" class="time">
                                     <option value="">18:00</option>
                                     <option value="">19:00</option>
                                     <option value="">20:00</option>
@@ -198,7 +197,7 @@
                     <tr>
                         <th><span class="title">ご来店人数</span><span class="required">必須</span></th>
                         <td>
-                            <select name="people" class="">
+                            <select name="people" class="people">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -220,27 +219,25 @@
                 </tbody>
             </table>
         </form>
+
+        <div class="btn" >
+            <button type="submit" name="action" value="send" class="button">上記内容で予約する</button>
+        </div>
+
+        <div class="sns">
+            <figure class="followme"><img src="images/followme.png" alt="followme"></figure>
+            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter" class="sns-icon"></a>
+            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram" class="sns-icon"></a>
+        </div>
+      
     </section>
 
-    <section>
-        <div class="btn">
-            <button type="submit" name="action" value="send">上記内容で予約する</button>
-        </div>
-    </section>
-    
     <footer>
-        <div class="sns">
-            <figure><img src="images/followme.png" alt="followme"></figure>
-            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/twitter.png" alt="Twitter"></a>
-            <a href="＃" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram"></a>
-        </div>
-        <div>
+        <div class="logo-top">
             <a href="#"><img src="images/pagetop.png" alt="TOP"></a>
         </div>
-    
-        <p><small>&copy;aoiyuwaku.com 2019</small></p>
+        <p class="copyright"><small >&copy;aoiyuwaku.com 2019</small></p>
     </footer>
-</div>
 </body>
 
 </html>
